@@ -1,0 +1,315 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="DexignZone">
+    <meta name="robots" content="">
+    <meta name="keywords" content="agency, bootstrap, business, construction agency, corporate agency, creative, digital agency, minimal, portfolio, professional, responsive, startup, web design agency, web design service, web development agency">
+    <meta name="description" content="Samar - Creative Agency Bootstrap HTML Template is particularly designed for agency, business, corporate agency, creative, professional, digital agency Business Template">
+    <meta property="og:title" content="Samar - Creative Agency Bootstrap HTML Template + RTL">
+    <meta property="og:description" content="Samar - Creative Agency Bootstrap HTML Template is particularly designed for agency, business, corporate agency, creative, professional, digital agency Business Template">
+    <meta property="og:image" content="images/social-image.png">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>استعداد های درخشان زنده یاد کردی</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="{% static "Static Home/images/Sampad.svg" %}">
+
+    <link href="{% static "Static Teagher And Management/css/animate.css" %}" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="{% static "Static Teagher And Management/css/style.css" %}">
+    <link class="skin" rel="stylesheet" href="{% static "Static Teagher And Management/css/skin-2.css" %}">
+    <link rel="stylesheet" href="{% static "Static Teagher And Management/css/switcher.css" %}">
+    <link rel="stylesheet" href="{% static "Static Teagher And Management/css/rangeslider.css" %}">
+
+</head>
+
+<body id="bg">
+    <div class="page-wraper">
+        <!-- Header -->
+        <header class="site-header header  mo-left">
+            <!-- Main Header -->
+            <div class="sticky-header main-bar-wraper navbar-expand-lg">
+                <div class="main-bar clearfix ">
+                    <div class="container clearfix">
+
+                        <!-- Website Logo -->
+                        <div class="logo-header logo-dark ">
+                            <a href="{% url "Home Page" %}"><img src="{% static "Static Teagher And Management/images/Logo.png" %}" style="height: 120px; width: 120px;" alt=""></a>
+                        </div>
+
+                        <!-- Nav Toggle Button -->
+                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+					    </button>
+
+                        <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                            <div class="logo-header logo-dark">
+                                <a href="index.html">
+                                    <img src="{% static "Static Teagher And Management/images/Logo.png" %}" alt="">
+                                </a>
+                            </div>
+                            <ul class="nav navbar-nav navbar">
+                                <li class="">
+                                    <a href="{% url "Home Page" %}">
+                                        <span>خانه</span>
+                                    </a>
+                                </li>
+
+                                <li class="sub-menu-down">
+                                    <a href="javascript:void(0);">
+                                        <span>معلمان</span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url "Seven One Teacher List" %}">هفتم یک</a></li>
+                                        <li><a href="{% url "Seven Two Teacher List" %}">هفتم دو</a></li>
+                                        <li><a href="{% url "Eight One Teacher List" %}">هشتم یک</a></li>
+                                        <li><a href="{% url "Eight Two Teacher List" %}">هشتم دو</a></li>
+                                        <li><a href="{% url "Nine One Teacher List" %}">نهم یک</a></li>
+                                        <li><a href="{% url "Nine Two Teacher List" %}">نهم دو</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="sub-menu-down">
+                                    <a href="javascript:void(0);">
+                                        <span>دانش آموزان</span>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li><a href="{% url "Seven One Student List" %}">هفتم یک</a></li>
+                                        <li><a href="{% url "Seven Two Student List" %}">هفتم دو</a></li>
+                                        <li><a href="{% url "Eight One Student List" %}">هشتم یک</a></li>
+                                        <li><a href="{% url "Eight Two Student List" %}">هشتم دو</a></li>
+                                        <li><a href="{% url "Nine One Student List" %}">نهم یک</a></li>
+                                        <li><a href="{% url "Nine Two Student List" %}">نهم دو</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="">
+                                    <a href="{% url "Staff Page" %}">
+                                        <span>کارکنان</span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="{% url "About Page" %}">
+                                        <span>درباره ما</span>
+                                    </a>
+                                </li>
+
+
+                                <li class="">
+                                    <a href="{% url "News Page" %}">
+                                        <span>اخبار</span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="{% url "Contact Page" %}">
+                                        <span>تماس با ما</span>
+                                    </a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Header End -->
+        </header>
+        <!-- Header End -->
+        <div class="page-content bg-white">
+            <!-- Banner  -->
+            <div class="dlab-bnr-inr overlay-primary-dark" style="background-image: url({% static "Static Teagher And Management/images/Two.jpg" %});">
+                <div class="container">
+                    <div class="dlab-bnr-inr-entry">
+                        <h1 style="font-family: B Homa;">دانش آموزان نهم یک</h1>
+                        <!-- Breadcrumb Row -->
+                        <!-- Breadcrumb Row End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Banner End -->
+
+           <!-- Team -->
+           <section class="content-inner" style="background-image: url({% static "Static Teagher And Management/images/bg1.png" %});">
+            <div class="container">
+                <div class="row">
+                    {% if student_nine_one %}
+                        {% for student in student_nine_one %}
+                            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                                <div class="dlab-team style-1 m-b30">
+                                    <div class="dlab-media dlab-img-effect zoom zoom-slow">
+                                        <img src="{{ student.photo.url }}" alt="">
+                                    </div>
+                                    <div class="dlab-content">
+                                        <div class="clearfix">
+                                            <h4 class="dlab-name" style="font-family: B Homa;">{{ student.name }}</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <tr>
+                                <td colspan="9" style="text-align: center;">دانش آموزی درسیستم هوشمند ثبت نشده است...</td>
+                            </tr>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="site-footer style-4" id="footer" style="background-image: url({% static "Static Teagher And Management/images/bg10.png" %}); background-size: cover;">
+        <div class="footer-top">
+            <div class="container">
+                <div class="wrapper-inner">
+                    <div class="row align-items-center">
+                        <div class="col-xl-4 col-md-5 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.1s">
+                            <div class="logo mb-2">
+                                <img src="{% static "Static Teagher And Management/images/Logo.png" %}" alt="footer-logo" style="height: 200px; margin-top: -60px;">
+                            </div>
+                            <p>دبیرستان متوسطه اول استعداد های درخشان زنده یاد کردی.</p>
+                        </div>
+                        <div class="col-md-7 col-xl-6 ms-auto wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                            <h6 class="title" style="font-family: B Homa;">مشترک شدن در اخبار مدرسه</h6>
+                            <div class="dlab-subscribe style-4">
+                                <form class="dzSubscribe" action="script/mailchamp.php" method="post">
+                                    <div class="dzSubscribeMsg"></div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input name="dzEmail" required="required" type="email" class="form-control" placeholder="آدرس ایمیل...">
+                                            <div class="input-group-addon">
+                                                <button name="submit" value="Submit" type="submit" class="btn btn-light">مشترک شدن</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="widget widget_getintuch">
+                            <h5 class="footer-title" style="font-family: B Homa;">اطلاعات تماس</h5>
+                            <ul>
+                                <li>
+                                    <i class="fas fa-map-marker-alt "></i>
+                                    <span>ایران، بوشهر، برازجان، خیابان نبوت</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span>0591 166 930 98+</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope "></i>
+                                    <span>KordiSchool@gmail.com</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="widget widget_services style-1">
+                            <h5 class="footer-title" style="font-family: B Homa;">صفحه ها</h5>
+                            <ul>
+                                <li><a href="index.html">خانه</a></li>
+                                <li><a href="about-us-1.html">درباره ما</a></li>
+                                <li><a href="services-1.html">مدیران</a></li>
+                                <li><a href="team-1.html">معلمان</a></li>
+                                <li><a href="blog-details-1.html">تماس با ما</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="widget widget_services style-1">
+                            <h5 class="footer-title" style="font-family: B Homa;">دوره ها</h5>
+                            <ul>
+                                <li><a href="blog-grid-2.html">اینترنت اشیا</a></li>
+                                <li><a href="blog-grid-2.html">هوش مصنوعی</a></li>
+                                <li><a href="blog-grid-2.html">تولید محتوا</a></li>
+                                <li><a href="blog-grid-2.html">طزاحی سایت</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                        <div class="widget widget_services style-1">
+                            <h5 class="footer-title" style="font-family: B Homa;">صفحات دیگر</h5>
+                            <ul>
+                                <li><a href="faq-1.html">پرسش و پاسخ</a></li>
+                                <li><a href="portfolio-details.html">پنل مدیریت</a></li>
+                                <li><a href="index-4.html">اخبار</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer bottom part -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-7 text-left">
+                        <span class="copyright-text">تمامی حقوق برای مدرسه زنده یاد کردی محفوظ است. 1405 - ۱۴۰۳.</span>
+                    </div>
+                    <div class="col-md-5 ms-auto">
+                        <ul class="footer-link ">
+                            <li><a href="about-us-1.html">ساخته و برنامه نویسی شده توسط برنامه نویس امیر حسین غلامی</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="{% static "Static Teagher And Management/js/jquery.min.js" %}"></script>
+    <!-- JQUERY.MIN JS -->
+    <script src="{% static "Static Teagher And Management/js/wow.js" %}"></script>
+    <!-- WOW JS -->
+    <script src="{% static "Static Teagher And Management/js/bootstrap.bundle.min.js" %}"></script>
+    <!-- BOOTSTRAP.MIN JS -->
+    <script src="{% static "Static Teagher And Management/js/owl.carousel.js" %}"></script>
+    <!-- OWL-CAROUSEL JS -->
+    <script src="{% static "Static Teagher And Management/js/magnific-popup.js" %}"></script>
+    <!-- MAGNIFIC-POPUP JS -->
+    <script src="{% static "Static Teagher And Management/js/waypoints-min.js" %}"></script>
+    <!-- WAYPOINTS JS -->
+    <script src="{% static "Static Teagher And Management/js/counterup.min.js" %}"></script>
+    <!-- COUNTERUP JS -->
+    <script src="{% static "Static Teagher And Management/js/imagesloaded.js" %}"></script>
+    <!-- IMAGESLOADED -->
+    <script src="{% static "Static Teagher And Management/js/masonry-4.2.2.js" %}"></script>
+    <!-- MASONRY -->
+    <script src="{% static "Static Teagher And Management/js/isotope.pkgd.min.js" %}"></script>
+    <!-- ISOTOPE -->
+    <script src="{% static "Static Teagher And Management/js/lightgallery-all.min.js" %}"></script>
+    <!-- LIGHTGALLERY -->
+    <script src="{% static "Static Teagher And Management/js/bootstrap-select.min.js" %}"></script>
+    <!-- BOOTSTRAP SELECT -->
+    <script src="{% static "Static Teagher And Management/js/dz.carousel.js" %}"></script>
+    <!-- CONTACT JS  -->
+    <script src="{% static "Static Teagher And Management/js/custom.js" %}"></script>
+    <!-- CUSTOM JS -->
+    <script src="{% static "Static Teagher And Management/js/switcher.js" %}"></script>
+    <!-- SWITCHER JS -->
+    <script src="{% static "Static Teagher And Management/js/rangeslider.js" %}"></script>
+    <!-- SWITCHER JS -->
+
+</body>
+
+</html>
